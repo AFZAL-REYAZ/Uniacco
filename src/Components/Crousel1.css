@@ -1,0 +1,53 @@
+.product-carousel{
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+}
+.cards-group{
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.pre-btn,.next-btn{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.next-btn:hover{
+    right: 0;
+    width: 48px;
+    background-color: rgb(181, 206, 228);
+}
+.pre-btn:hover{
+    left: 0;
+    width: 48px;
+    background-color: rgb(181, 206, 228);
+}
+.btn_slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 874px){
+    .product-carousel{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        padding: 30px;
+    }
+    .cards-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    .pre-btn,.next-btn{
+        border: .5px solid rgb(143, 139, 139);
+        border-radius: 50%;
+        width: 30px;
+    }
+}

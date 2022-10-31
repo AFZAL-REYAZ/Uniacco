@@ -1,0 +1,49 @@
+.mycard{
+    min-width: 600px;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+}
+.mycard img{
+    min-width: 600px;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 15px;
+}
+.mycard img:hover{
+    min-width: 620px;
+    max-width: 620px;
+    height: 320px;
+}
+@media only screen and (max-width: 874px){
+    .mycard{
+        min-width: 450px;
+        max-width: 450px;
+        height: 300px;
+        border-radius: 15px;
+        margin: 10px;
+    }
+    .mycard img{
+        min-width: 450px;
+        max-width: 450px;
+        height: 300px;
+        border-radius: 15px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .mycard{
+        min-width: 350px;
+        max-width: 350px;
+        height: 300px;
+        border-radius: 15px;
+        margin: 10px;
+    }
+    .mycard img{
+        min-width: 350px;
+        max-width: 350px;
+        height: 300px;
+        border-radius: 15px;
+    }
+}
